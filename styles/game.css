@@ -60,7 +60,7 @@ a {
     color: #3C354F;
 }
 
-.banner {
+.banner1 {
     display: flex;
     justify-content: space-between;
     padding: 38px 200px;
@@ -78,6 +78,7 @@ a {
     font-size: 48px;
     font-weight: 600px;
     color: #0B0223;
+    margin-top: 100px;
 }
 
 .banner-des {
@@ -106,13 +107,50 @@ a {
     padding: 21px 40px;
     border: none;
     margin-top: 30px;
+    /* margin-bottom: 140px; */
 }
 .second-btn{
     background: #4EC5F7;
 }
 
 .banner-img img {
-    width: 500px;
+    width: 600px;
     position: relative;
     left: 20px;
 }
+
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 70px 200px;
+    background-color:  rgba(255, 66, 165, 0.03);
+}
+
+.banner2-content{
+    text-align: right;
+}
+.banner2-title{
+    color: #8758F1;
+    font-size: 48px;
+    font-weight: 700px;
+}
+
+.banner2-des{
+    width: 520px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 24px;
+}
+
+.banner2-content h4{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+.banner2-img img{
+    width: 750px;
+}
+
