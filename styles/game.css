@@ -384,5 +384,37 @@ a {
         right:40px;
         position: relative;
     }
-    
+    .btn{
+        display: flex;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .banner2{
+        flex-direction: column-reverse;
+        padding: 30px 100px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .banner2-img img{
+        width: 400px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .banner2-content{
+        text-align: center;
+    }
+    .banner2-des{
+        margin-top: 50px;
+    }
+    .online-game{
+        margin-top: 100px;
+    }
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
